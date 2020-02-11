@@ -1,0 +1,2 @@
+# Sets the sound of all recipes (if you want to specify an individual sound go to the craft folder and check for the recipes you want to change)
+playsound minecraft:block.chest.locked block @a ~ ~ ~ 0.5

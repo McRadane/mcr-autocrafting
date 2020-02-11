@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "McRadane's Auto-Crafting",
-        "pack_format": 2
+        "pack_format": 5,
+        "description": "McRadane's Auto-Crafting\n§r§6reworked by redirectto"
     }
 }
