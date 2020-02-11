@@ -1,5 +1,3 @@
-scoreboard players set @s empty_slots 27
-
 execute as @s at @s run execute store success score @s has_item run data get block ^ ^ ^-1 Items[{Slot:0b}]
 scoreboard players operation @s empty_slots -= @s has_item
 execute as @s at @s run execute store success score @s has_item run data get block ^ ^ ^-1 Items[{Slot:1b}]

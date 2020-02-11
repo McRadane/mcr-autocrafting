@@ -37,7 +37,7 @@ execute if score @s mcrac_ic_3 >= @s mcrac_n_3 run scoreboard players add @s mcr
 execute if score @s mcrac_ic_4 >= @s mcrac_n_4 run scoreboard players add @s mcrac_ok 1
 
 # try to add items
-execute if score @s mcrac_ok matches 4 run function mcr-autocraft:count_empty_slots
+execute if score @s mcrac_ok matches 4 run function mcr-autocraft:empty_slots
 execute if score @s mcrac_ok matches 4 if score @s empty_slots matches 1.. run loot insert ^ ^ ^-1 loot mcr-autocraft:suspicious_stew_wither_1
 execute if score @s mcrac_ok matches 4 if score @s empty_slots matches 1.. run scoreboard players set @s mcrac_gave 1
 

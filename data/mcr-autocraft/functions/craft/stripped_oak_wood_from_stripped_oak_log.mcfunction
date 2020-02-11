@@ -13,7 +13,7 @@ scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
 execute if score @s mcrac_ic_1 >= @s mcrac_n_1 run scoreboard players add @s mcrac_ok 1
 
 # try to add items
-execute if score @s mcrac_ok matches 1 run function mcr-autocraft:count_empty_slots
+execute if score @s mcrac_ok matches 1 run function mcr-autocraft:empty_slots
 execute if score @s mcrac_ok matches 1 if score @s empty_slots matches 1.. run loot insert ^ ^ ^-1 loot mcr-autocraft:stripped_oak_wood_3
 execute if score @s mcrac_ok matches 1 if score @s empty_slots matches 1.. run scoreboard players set @s mcrac_gave 1
 
