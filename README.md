@@ -45,9 +45,9 @@ Version r1.0 of my code works perfectly fine with chests, shulkers and barrels, 
 Now in version r1.1 the system checks in which type of container the item frame is placed so I can change the initial number of empty slots from 27 to whatever number it needs.
 
 # Crafting recipes:
-An image is worth 1000 words and this page is worth a lot of images (you still cannot craft any firework stars, most of the firework rockets or duplicate a banner) ![craftinginfo] (https://www.minecraftcrafting.info)
+An image is worth 1000 words and this page is worth a lot of images (you still cannot craft any firework stars, most of the firework rockets or duplicate a banner) [craftinginfo](https://www.minecraftcrafting.info)
 
-If you still prefer the words: ![crafting recipes] (https://pastebin.com/pbqrBm0n)
+If you still prefer the words: [crafting recipes](https://pastebin.com/pbqrBm0n)
 
 # Building:
 If for some reason you don't trust me you can clone my proyect or download the source code both of which are already zipped.
