@@ -24,6 +24,12 @@ scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
 function mcr-autocraft:count/dark_oak_slab
 scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
 
+function mcr-autocraft:count/crimson_slab
+scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
+
+function mcr-autocraft:count/warped_slab
+scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
+
 # check if enough items
 execute if score @s mcrac_ic_1 >= @s mcrac_n_1 run scoreboard players add @s mcrac_ok 1
 

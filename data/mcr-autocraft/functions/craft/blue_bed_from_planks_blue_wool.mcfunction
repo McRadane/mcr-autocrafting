@@ -28,6 +28,12 @@ scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
 function mcr-autocraft:count/dark_oak_planks
 scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
 
+function mcr-autocraft:count/crimson_planks
+scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
+
+function mcr-autocraft:count/warped_planks
+scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
+
 function mcr-autocraft:count/blue_wool
 scoreboard players operation @s mcrac_ic_2 += @s mcrac_tt
 
