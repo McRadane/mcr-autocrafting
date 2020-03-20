@@ -499,6 +499,7 @@ execute as @s[nbt={Item:{id:"minecraft:red_stained_glass_pane"}}] run function m
 execute as @s[nbt={Item:{id:"minecraft:red_terracotta"}}] run function mcr-autocraft:craft/red_terracotta_from_red_dye_terracotta
 execute as @s[nbt={Item:{id:"minecraft:red_wool"}}] run function mcr-autocraft:craft/red_wool_from_red_dye_white_wool
 execute as @s[nbt={Item:{id:"minecraft:repeater"}}] run function mcr-autocraft:craft/repeater_from_redstone_redstone_torch_stone
+execute as @s[nbt={Item:{id:"minecraft:respawn_anchor"}}] run function mcr-autocraft:craft/respawn_anchor_from_crying_obsidian_glowstone
 execute as @s[nbt={Item:{id:"minecraft:sandstone"}}] run function mcr-autocraft:craft/sandstone_from_sand
 execute as @s[nbt={Item:{id:"minecraft:sandstone_slab"}}] run function mcr-autocraft:craft/sandstone_slab_from_sandstone_chiseled
 execute as @s[nbt={Item:{id:"minecraft:sandstone_stairs"}}] run function mcr-autocraft:craft/sandstone_stairs_from_sandstone_chiseled_cut

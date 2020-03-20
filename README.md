@@ -24,7 +24,7 @@ Minecraft update 1.15 is out and with it we get some reworked crafting recipes (
 
 Apart from 1.15 I added some extra recipes with nbt tags such as the basic firework rockets (paper + gunpowder) or the suspicious stews.
 
-I'm now giving support to the 1.16 snapshots (20w10a) and I got to add a lot of new recipes and update some others.
+I'm now giving support to the 1.16 snapshots (20w12a) and I got to add a lot of new recipes and update some others.
 
 ### Full Inventory ingredient deletion fix:
 In the original code when the container slots were completely filled with items the system would try to craft anyways so it didn't matter if it could or couldn't craft the items the system would remove the ingredients in any case.
