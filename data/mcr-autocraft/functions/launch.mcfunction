@@ -342,6 +342,7 @@ execute as @s[nbt={Item:{id:"minecraft:lime_stained_glass_pane"}}] run function 
 execute as @s[nbt={Item:{id:"minecraft:lime_stained_glass_pane"}}] run function mcr-autocraft:craft/lime_stained_glass_pane_from_glass_pane_lime_dye
 execute as @s[nbt={Item:{id:"minecraft:lime_terracotta"}}] run function mcr-autocraft:craft/lime_terracotta_from_lime_dye_terracotta
 execute as @s[nbt={Item:{id:"minecraft:lime_wool"}}] run function mcr-autocraft:craft/lime_wool_from_lime_dye_white_wool
+execute as @s[nbt={Item:{id:"minecraft:lodestone"}}] run function mcr-autocraft:craft/lodestone_from_chiseled_stone_bricks_netherite_ingot
 execute as @s[nbt={Item:{id:"minecraft:loom"}}] run function mcr-autocraft:craft/loom_from_planks_string
 execute as @s[nbt={Item:{id:"minecraft:magenta_banner"}}] run function mcr-autocraft:craft/magenta_banner_from_magenta_wool_stick
 execute as @s[nbt={Item:{id:"minecraft:magenta_bed"}}] run function mcr-autocraft:craft/magenta_bed_from_planks_magenta_wool

@@ -24,7 +24,7 @@ Minecraft update 1.15 is out and with it we get some reworked crafting recipes (
 
 Apart from 1.15 I added some extra recipes with nbt tags such as the basic firework rockets (paper + gunpowder) or the suspicious stews.
 
-I'm now giving support to the 1.16 snapshots (20w12a) and I got to add a lot of new recipes and update some others.
+I'm now giving support to the 1.16 snapshots (20w13a) and I got to add a lot of new recipes and update some others.
 
 ### Full Inventory ingredient deletion fix:
 In the original code when the container slots were completely filled with items the system would try to craft anyways so it didn't matter if it could or couldn't craft the items the system would remove the ingredients in any case.
@@ -52,8 +52,8 @@ An image is worth 1000 words and this page is worth a lot of images (you still c
 
 If you still prefer the words: [crafting recipes](https://pastebin.com/pbqrBm0n)
 
-# Building:
-If for some reason you don't trust me you can clone my proyect or download the source code both of which are already zipped.
+# Custom crafting recipes
+You can add your own custom crafting recipes to this datapack following this [tutorial](https://imgur.com/a/zB3Yqif)
 
 # Found any glitch? Have any suggestion?
 Feel free to [open a new issue](https://github.com/redirectto/mcr-autocrafting/issues/new)!
