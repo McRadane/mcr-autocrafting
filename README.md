@@ -20,11 +20,11 @@ The problem lies when you get more than 1 separate input slots, with the old cod
 Now it is totally fixed and if a recipe can use diferent types of a similar item like for example the smoker which can use every type of log it will be removing the ingredients when crafting from the bottom right slot upwards using whatever ingredient you put into the container.
 
 ### New crafting recipes:
-Minecraft update 1.15 is out and with it we get some reworked crafting recipes (composter and dark prismarine) and new crafting recipes (stripped woods, beehive, honey_block, honey_bottle)
+Minecraft update 1.15 is out and with it we got some reworked crafting recipes (composter and dark prismarine) and new crafting recipes (stripped woods, beehive, honey_block, honey_bottle)
 
 Apart from 1.15 I added some extra recipes with nbt tags such as the basic firework rockets (paper + gunpowder) or the suspicious stews.
 
-I'm now giving support to the 1.16 snapshots (20w13a) and I got to add a lot of new recipes and update some others.
+I'm now giving support to the 1.16 snapshots (20w15a) and I got to add lots of new recipes and update some others.
 
 ### Full Inventory ingredient deletion fix:
 In the original code when the container slots were completely filled with items the system would try to craft anyways so it didn't matter if it could or couldn't craft the items the system would remove the ingredients in any case.

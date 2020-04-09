@@ -82,6 +82,30 @@ scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
 function mcr-autocraft:count/stripped_dark_oak_wood
 scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
 
+function mcr-autocraft:count/crimson_stem
+scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
+
+function mcr-autocraft:count/crimson_hyphae
+scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
+
+function mcr-autocraft:count/stripped_crimson_stem
+scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
+
+function mcr-autocraft:count/stripped_crimson_hyphae
+scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
+
+function mcr-autocraft:count/warped_stem
+scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
+
+function mcr-autocraft:count/warped_hyphae
+scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
+
+function mcr-autocraft:count/stripped_warped_stem
+scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
+
+function mcr-autocraft:count/stripped_warped_hyphae
+scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
+
 function mcr-autocraft:count/furnace
 scoreboard players operation @s mcrac_ic_2 += @s mcrac_tt
 

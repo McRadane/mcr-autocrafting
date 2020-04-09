@@ -2,11 +2,11 @@
 scoreboard players set @s mcrac_ic_1 0
 scoreboard players set @s mcrac_n_1 1
 
-# input 2 : minecraft:stick
+# input 2 : #minecraft:#soul_blocks
 scoreboard players set @s mcrac_ic_2 0
 scoreboard players set @s mcrac_n_2 1
 
-# input 3 : minecraft:soul_soil
+# input 3 : minecraft:stick
 scoreboard players set @s mcrac_ic_3 0
 scoreboard players set @s mcrac_n_3 1
 
@@ -20,10 +20,13 @@ scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
 function mcr-autocraft:count/charcoal
 scoreboard players operation @s mcrac_ic_1 += @s mcrac_tt
 
-function mcr-autocraft:count/stick
+function mcr-autocraft:count/soul_sand
 scoreboard players operation @s mcrac_ic_2 += @s mcrac_tt
 
 function mcr-autocraft:count/soul_soil
+scoreboard players operation @s mcrac_ic_2 += @s mcrac_tt
+
+function mcr-autocraft:count/stick
 scoreboard players operation @s mcrac_ic_3 += @s mcrac_tt
 
 # check if enough items
@@ -41,10 +44,10 @@ scoreboard players operation @s item_need = @s mcrac_n_1
 execute if score @s mcrac_ok matches 3 if score @s mcrac_gave matches 1 run function mcr-autocraft:countslot/coals
 execute if score @s mcrac_ok matches 3 if score @s mcrac_gave matches 1 run function mcr-autocraft:remove
 scoreboard players operation @s item_need = @s mcrac_n_2
-execute if score @s mcrac_ok matches 3 if score @s mcrac_gave matches 1 run function mcr-autocraft:countslot/stick
+execute if score @s mcrac_ok matches 3 if score @s mcrac_gave matches 1 run function mcr-autocraft:countslot/soul_blocks
 execute if score @s mcrac_ok matches 3 if score @s mcrac_gave matches 1 run function mcr-autocraft:remove
 scoreboard players operation @s item_need = @s mcrac_n_3
-execute if score @s mcrac_ok matches 3 if score @s mcrac_gave matches 1 run function mcr-autocraft:countslot/soul_soil
+execute if score @s mcrac_ok matches 3 if score @s mcrac_gave matches 1 run function mcr-autocraft:countslot/stick
 execute if score @s mcrac_ok matches 3 if score @s mcrac_gave matches 1 run function mcr-autocraft:remove
 
 # play sound and add a cooldown(10 seconds)
