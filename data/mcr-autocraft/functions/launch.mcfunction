@@ -97,6 +97,7 @@ execute as @s[nbt={Item:{id:"minecraft:campfire"}}] run function mcr-autocraft:c
 execute as @s[nbt={Item:{id:"minecraft:carrot_on_a_stick"}}] run function mcr-autocraft:craft/carrot_on_a_stick_from_carrot_fishing_rod
 execute as @s[nbt={Item:{id:"minecraft:cartography_table"}}] run function mcr-autocraft:craft/cartography_table_from_planks_paper
 execute as @s[nbt={Item:{id:"minecraft:cauldron"}}] run function mcr-autocraft:craft/cauldron_from_iron_ingot
+execute as @s[nbt={Item:{id:"minecraft:chain"}}] run function mcr-autocraft:craft/chain_from_iron_ingot_iron_nugget
 execute as @s[nbt={Item:{id:"minecraft:chest"}}] run function mcr-autocraft:craft/chest_from_planks
 execute as @s[nbt={Item:{id:"minecraft:chest_minecart"}}] run function mcr-autocraft:craft/chest_minecart_from_chest_minecart
 execute as @s[nbt={Item:{id:"minecraft:chiseled_nether_bricks"}}] run function mcr-autocraft:craft/chiseled_nether_bricks_from_nether_brick_slab
