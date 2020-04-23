@@ -36,7 +36,7 @@ execute if score @s mcrac_ic_3 >= @s mcrac_n_3 run scoreboard players add @s mcr
 
 # try to add items
 execute if score @s mcrac_ok matches 3 run function mcr-autocraft:empty_slots
-execute if score @s mcrac_ok matches 3 if score @s empty_slots matches 1.. run loot insert ^ ^ ^-1 loot mcr-autocraft:soul_fire_torch_4
+execute if score @s mcrac_ok matches 3 if score @s empty_slots matches 1.. run loot insert ^ ^ ^-1 loot mcr-autocraft:soul_torch_4
 execute if score @s mcrac_ok matches 3 if score @s empty_slots matches 1.. run scoreboard players set @s mcrac_gave 1
 
 # if ok, remove crafting items
