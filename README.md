@@ -17,35 +17,37 @@ When removing the ingredients of the crafting in the original code it replaced t
 
 The problem lies when you get more than 1 separate input slots, with the old code it will start duplicating the ingredients and at some point the numbers would get so high that the items would get deleted.
 
-Now it is totally fixed and if a recipe can use diferent types of a similar item like for example the smoker which can use every type of log it will be removing the ingredients when crafting from the bottom right slot upwards using whatever ingredient you put into the container.
+Now it is totally fixed and if a recipe can use diferent types of a similar item like for example the smoker which can use every type of log it will be removing the ingredients when crafting from the bottom right slot leftwards using whatever ingredient you put into the container.
 
 ### New crafting recipes:
-Minecraft update 1.15 is out and with it we got some reworked crafting recipes (composter and dark prismarine) and new crafting recipes (stripped woods, beehive, honey_block, honey_bottle)
+With minecraft update 1.15 we got some reworked crafting recipes (composter and dark prismarine) and new crafting recipes (stripped woods, beehive, honey_block, honey_bottle).
 
-Apart from 1.15 I added some extra recipes with nbt tags such as the basic firework rockets (paper + gunpowder) or the suspicious stews.
+And now minecraft update 1.16 is out, so I had to redo some of the recipes to be consistent with the new types of "wood" and add a lot of new ones.
 
-I'm now giving support to the 1.16 snapshots (20w17a) and I got to add lots of new recipes and update some others.
+Apart from the updates I added some extra recipes with nbt tags such as the basic firework rockets (paper + gunpowder) or the suspicious stews.
 
 ### Full Inventory ingredient deletion fix:
 In the original code when the container slots were completely filled with items the system would try to craft anyways so it didn't matter if it could or couldn't craft the items the system would remove the ingredients in any case.
 
 Now the system checks for the container to have at least 1 empty slot (or 2 in the case of cake and honey block) in order to be able to craft.
 
+In version 1.1 onwards you can autocraft on other containers like dispensers, droppers or hoppers.
+
 ### Added byproducts:
 Cake and Honey block recipes also get some items back, buckets and glass bottles respectively.
 
-### Easy customizable sounds and cooldowns:
-Instead of having to change them for every single recipe, now the end user can unzip the datapack, go to the folder data\mcr-autocraft\functions and edit the cooldown.mcfunction and sound.mcfunction files for every recipe at the same time.
+### Easy customizable cooldown and sounds:
+Cooldowns are easy to customize with the following command:
+```
+/scoreboard players set #mcr_0 mcrac_cooldown 200
+```
+
+To customize the sound that plays when a craft is performed you can unzip the datapack, go to the folder data\mcr-autocraft\functions and edit the sound.mcfunction file.
 
 I don't know why they would change the sounds but **maybe they want to hear screaming ghasts**, who knows.
 
 ### Clean of the code:
 As most of the code is changed I removed some unnecessary "variables" and functions of the old code.
-
-### Checking the block container nameid:
-Version r1.0 of my code works perfectly fine with chests, shulkers and barrels, but the other containers still had the Full Inventory ingredient deletion glitch.
-
-Now in version r1.1 the system checks in which type of container the item frame is placed so I can change the initial number of empty slots from 27 to whatever number it needs.
 
 # Crafting recipes:
 An image is worth 1000 words and this page is worth a lot of images (you still cannot craft any firework stars, most of the firework rockets or duplicate a banner) [craftinginfo](https://www.minecraftcrafting.info) (outdated for 1.16)

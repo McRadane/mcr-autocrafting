@@ -1,4 +1,5 @@
 scoreboard objectives add mcrac_cd dummy
+scoreboard objectives add mcrac_cooldown dummy
 scoreboard objectives add mcrac_gave dummy
 scoreboard objectives add mcrac_ic_1 dummy
 scoreboard objectives add mcrac_ic_2 dummy
@@ -73,3 +74,4 @@ scoreboard objectives add ini_slot_25 dummy
 scoreboard objectives add ini_slot_26 dummy
 scoreboard objectives add empty_slots dummy
 scoreboard objectives add has_item dummy
+execute unless score #mcr_0 mcrac_cooldown matches 1.. run scoreboard players set #mcr_0 mcrac_cooldown 200
